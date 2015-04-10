@@ -27,15 +27,17 @@ html
 		{
 			display: inline-block;
 			list-style: none;
-			li{
+			li.post{
 				display: inline-block;
-				width: 250px;
-				height: 100px;
+				width: 290px;
+				height: 120px;
 				overflow: hidden;
+				margin: 0px;
 
 				img{
 					position: relative;
 					top: -50px;
+					padding: 20px;
 				}
 			}
 		}

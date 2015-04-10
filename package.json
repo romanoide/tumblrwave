@@ -1,6 +1,6 @@
 {
-  "name": "gulpfile",
-  "version": "0.0.0",
+  "name": "tumblrwave",
+  "version": "0.0.1",
   "description": "0.0.1",
   "main": "app.js",
   "scripts": {
@@ -8,22 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/romanoide/gulpfile.git"
+    "url": "https://github.com/romanoide/tumblrwave.git"
   },
   "keywords": [
-    "gulp",
+    "tumblr",
+    "color",
     "tut"
   ],
   "author": "romanoide",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/romanoide/gulpfile/issues"
+    "url": "https://github.com/romanoide/tumblrwave/issues"
   },
-  "homepage": "https://github.com/romanoide/gulpfile",
+  "homepage": "https://github.com/romanoide/tumblrwave",
   "dependencies": {
     "browserify": "^9.0.3",
+    "dominant-color": "0.0.1",
     "express": "^4.12.3",
     "express-handlebars": "^2.0.0",
+    "request": "^2.55.0",
     "tumblr": "^0.4.1"
   },
   "devDependencies": {

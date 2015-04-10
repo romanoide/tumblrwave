@@ -2,7 +2,11 @@
 	<h1>Tumblrwave</h1>
 	<ul>
 	{{#each list}}
-	<li><img src="{{image_permalink}}"></li>
+	<li class="post" style="background-color:{{colour}}" >
+		<a href="{{permalink}}">
+			<img alt="{{slug}}" class="image" src="{{img_link}}">
+		</a>
+	</li>
 	{{/each}}
 	</ul>
 </div>

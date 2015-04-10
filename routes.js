@@ -12,7 +12,7 @@ module.exports = {
 	},
 	results: function (req, res){
 		tumblr(req.params.tag, function(yyz){ 
-			console.log(yyz)
+			//console.log(yyz)
 			res.render('index',{
 				list:yyz
 			});
