@@ -20,9 +20,6 @@ app.get('/tumblr',routes.tumblr);
 app.get('/tumblr/:tag',routes.results);
 
 
-app.get('/', function(req, res){
-	res.sendFile('/public/bin/index.html',{ root: __dirname });
-});
 
 app.use(express.static(__dirname + '/public/bin'));
 console.log(__dirname+'/public/bin');

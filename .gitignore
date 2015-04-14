@@ -33,5 +33,3 @@ node_modules
 #Compiled app
 public/bin
 
-#tmp
-public/tmp/*.*

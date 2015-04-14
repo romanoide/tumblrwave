@@ -1,0 +1,18 @@
+<div class="main-container">
+	<script type="text/javascript">
+		function search_tag(){
+			var obj = document.getElementById("tag");
+			var tag = obj.value;
+			var dst = "/tumblr/" + tag;
+			window.location.replace(dst);
+		}
+	</script>
+	<h1>Tumblrwave</h1>
+		<p>
+		<span>Buscar</span>
+		<input  id="tag" type="text">
+		<input type="button" onClick="search_tag()" value="Ir">
+		</p>		
+</div>
+
+</body>
